@@ -1,4 +1,4 @@
-package back.joon.q1543;
+package baek.joon.q1543;
 import java.util.*;
 
 //찬우 풀이
