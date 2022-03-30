@@ -2,7 +2,7 @@ package baek.joon.q1543;
 
 import java.util.*;
 
-// 인호 풀이
+
 public class B1 {
 
     static int answer = 0;
