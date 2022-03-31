@@ -9,12 +9,10 @@ public class A1 {
 
         int numberOfPeople = Integer.parseInt(scanner.nextLine());
         String waitingTimeStr = scanner.nextLine();
-        int[] waitingTimeArr = Arrays.stream(waitingTimeStr.split(" "))
-                .mapToInt(Integer::parseInt).toArray();
+        int[] waitingTimeArr = Arrays.stream(Arrays.stream(waitingTimeStr.split(" "))
+                .mapToInt(Integer::parseInt).toArray()).sorted().toArray();
 
         int totalTime = 0;
-
-        Arrays.sort(waitingTimeArr);
 
         for(int waitingTime:waitingTimeArr){
 
