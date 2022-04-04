@@ -9,6 +9,7 @@ public class A1 {
 
         int numberOfPeople = Integer.parseInt(scanner.nextLine());
         String waitingTimeStr = scanner.nextLine();
+
         int[] waitingTimeArr = Arrays.stream(Arrays.stream(waitingTimeStr.split(" "))
                 .mapToInt(Integer::parseInt).toArray()).sorted().toArray();
 
@@ -16,7 +17,7 @@ public class A1 {
 
         for(int waitingTime:waitingTimeArr){
 
-           totalTime += waitingTime*numberOfPeople;
+            totalTime += waitingTime * numberOfPeople;
 
             numberOfPeople--;
         }
