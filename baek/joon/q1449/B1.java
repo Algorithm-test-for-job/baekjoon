@@ -14,11 +14,10 @@ public class B1 {
         }
         Arrays.sort(arr);
         int answer = 0;
-        int cap = 0;
 
         for (int i = 0; i < N;) {
             answer++;
-            cap = arr[i] + L - 1;
+            int cap = arr[i] + L - 1;
             if(i == N - 1) break;
             while (arr[++i] <= cap ) {
                 if(i == N - 1) {
