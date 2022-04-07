@@ -1,4 +1,4 @@
-# 문서 검색
+# ATM
 
 https://www.acmicpc.net/problem/11399
 

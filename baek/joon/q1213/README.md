@@ -1,4 +1,4 @@
-# 수리공 항승
+# 팰린드롬 만들기
 
 https://www.acmicpc.net/problem/1213
 
