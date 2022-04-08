@@ -4,6 +4,7 @@ import java.util.*;
 
 /*
 B1에서 홀수든 짝수든 사전식으로 나열하기
+B1에서는 AAABB 하면 BAAAB 나왔는데 ABABA로 나와야 한다.
 */
 public class B2 {
     static String inputStr;
